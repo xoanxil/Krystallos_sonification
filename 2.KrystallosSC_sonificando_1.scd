@@ -96,6 +96,10 @@ Post << ~col1_2
 
 // Creamos sonido utiizando un instrumento por defecto incluido en SC
 
+//Encendemos el servidor de audio
+
+s.boot;
+
 (
 ~patron = Pbind(\instrument, \default,
 	\note, ~stream.cpsmidi,
